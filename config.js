@@ -5,7 +5,7 @@ global.autoread = false
 global.selfmode = false
 global.autobio = false // or node . --autobio
 global.thumb = './thumb/itsuki.jpg'
-global.fakereplyt = 'Kel Bot WhatsApp'
+global.fakereplyt = 'Kel Bot'
 global.mess = {
 group : {
 welcome : `Welcome @user\n\nSelamat datang di grup @subject`,
