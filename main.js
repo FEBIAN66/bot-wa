@@ -31,7 +31,7 @@ console.log(color(figlet.textSync('WHATSAPP BOT', {
 		width: 80,
 		whitespaceBreak: false
 	}), 'cyan'))
-console.log(color('[ CREATED BY CALIPH ]'))
+console.log(color('[ CREATED BY MIKEL ]'))
 console.log(color('[ REPORT BUG ]', 'cyan'), color('https://clph.pw/reportbug', 'yellow'))
 console.log(color('[ SCRIPT BOT ]', 'cyan'), color('https://clph.pw/scriptbot', 'yellow'))
 if (opts.server) {
