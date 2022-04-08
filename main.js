@@ -32,8 +32,8 @@ console.log(color(figlet.textSync('WHATSAPP BOT', {
 		whitespaceBreak: false
 	}), 'cyan'))
 console.log(color('[ CREATED BY MIKEL ]'))
-console.log(color('[ REPORT BUG ]', 'cyan'), color('https://clph.pw/reportbug', 'yellow'))
-console.log(color('[ SCRIPT BOT ]', 'cyan'), color('https://clph.pw/scriptbot', 'yellow'))
+console.log(color('[ REPORT BUG ]', 'cyan'), color('https://tinyurl.com/kelbug', 'yellow'))
+console.log(color('[ SCRIPT BOT ]', 'cyan'), color('https://mikel27.cf', 'yellow'))
 if (opts.server) {
   require('./server')(caliph, process.env.PORT || 8080)
 } else {
@@ -80,7 +80,7 @@ var sDisplay = s > 0 ? s + (s == 1 ? " Detik,":" Detik") : ""; return dDisplay +
           if (opts.autobio || global.autobio) {
           setInterval(async () => {
               user = JSON.parse(fs.readFileSync('database/user/register.json', 'utf-8'))
-               await caliph.setStatus(`Status : ${selfmode ? 'Self Mode' : 'Public Mode'} | Uptime ${waktu(process.uptime())} | User Registered : ${user.length} Users | Author : @caliph91 | Auto Update Bio After 1 Minute`)
+               await caliph.setStatus(`Status : ${selfmode ? 'Self Mode' : 'Public Mode'} | Uptime ${waktu(process.uptime())} | User Registered : ${user.length} Users | Author : Mikel | Web : mikel27.cf`)
              }, 60 * 1000)
           }
 		})
